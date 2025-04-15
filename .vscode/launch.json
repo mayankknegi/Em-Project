@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EmProjectApplication<em-project>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.codingwallah.em_project.EmProjectApplication",
+            "projectName": "em-project",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=63587 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=em-project"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TestClass<em-project>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.codingwallah.em_project.TestClass",
+            "projectName": "em-project",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
